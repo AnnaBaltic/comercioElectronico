@@ -62,6 +62,7 @@ function showNotification(message) {
 
     notificationsContainer.appendChild(notification);
 
+    // Genera un tiempo de espera
     setTimeout(() => {
         notification.remove();
     }, 3000);
